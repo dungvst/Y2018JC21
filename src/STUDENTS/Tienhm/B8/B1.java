@@ -24,7 +24,7 @@ public class B1 {
 			} 
 			System.out.println("tong phan tu cot" + (j + 1) + " " + tong);
 			tong=0;
-		}
+		} 
 	}
 
 }
