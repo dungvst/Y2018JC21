@@ -16,7 +16,7 @@ public class B1 {
 			for (j = 0; j < 2; j++) {
 				System.out.print("phan tu dong " + (i + 1) + " cot " + (j + 1) + ": ");
 				mang[i][j] = nhap.nextInt();
-			}
+			} 
 		}
 		for (j = 0; j < 2; j++) {
 			for (i = 0; i < 3; i++) {
