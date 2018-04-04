@@ -21,7 +21,7 @@ public class B1 {
 		for (j = 0; j < 2; j++) {
 			for (i = 0; i < 3; i++) {
 				tong = tong + mang[i][j];
-			}
+			} 
 			System.out.println("tong phan tu cot" + (j + 1) + " " + tong);
 			tong=0;
 		}
