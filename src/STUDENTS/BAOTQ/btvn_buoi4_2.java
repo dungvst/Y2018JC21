@@ -1,4 +1,4 @@
-package STUDENTS.BAOTQ;
+package BAOTQ;
 
 import java.util.Scanner;
 
