@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class Main2 {
 
 	public static void main(String[] args) {
-		System.out.println("Enter the number of elements of the array:");
+		System.out.println("Enter the number of elements of the array");
 		Scanner scan = new Scanner(System.in);
 		System.out.println("Enter the number of rows:");
 		int n = scan.nextInt();
@@ -14,12 +14,12 @@ public class Main2 {
 		int [][]intArray = new int[n][m];
 		inputArray(intArray, n, m);
 		System.out.println("Integer Array:");
-		Main1.ouputArray(intArray);
+		ouputArray(intArray);
 		sumOfColumn(intArray, n, m);
-		
-		
+
+
 	}
-	
+
 	static void inputArray(int [][]intArray, int noOfRows, int noOfColumns){
 		Scanner scan = new Scanner(System.in);
 		for(int i=0; i< noOfRows ; i++){
@@ -29,7 +29,7 @@ public class Main2 {
 			}
 		}
 	}
-	
+
 	static void ouputArray(int [][] intArray){
 		for (int[] is : intArray) {
 			for (int i : is) {
@@ -38,7 +38,7 @@ public class Main2 {
 			System.out.println();
 		}
 	}
-	
+
 	public static void sumOfColumn(int [][]intArray, int noOfRows, int noOfColumns){
 		for(int i=0; i<noOfColumns; i++){
 			int sum =0;

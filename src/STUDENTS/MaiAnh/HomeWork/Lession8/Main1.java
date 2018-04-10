@@ -47,5 +47,4 @@ public class Main1 {
 		}
 		return sum;
 	}
-	
 }
