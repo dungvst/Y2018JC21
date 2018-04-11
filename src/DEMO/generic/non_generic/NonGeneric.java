@@ -13,7 +13,7 @@ public class NonGeneric {
 
         for(Object obj : list){
             //type casting leading to ClassCastException at runtime
-            String str=(String) obj;
+            String str=(String)obj ;
             System.out.println(str);
         }
 
@@ -24,6 +24,8 @@ public class NonGeneric {
 
         for(String str : list1){
             //no type casting needed, avoids ClassCastException
+            System.out.println(str);
+
         }
     }
 }

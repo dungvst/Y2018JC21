@@ -1,0 +1,9 @@
+Ex1:
+Thiết kế một hệ thống hoạt động như một thư viện (List) cho các loại phương tiện truyền thông
+sau đây: sách, video và báo.
+Tạo 2 phương thức: Thêm mới thư viện, Lấy thư viện cuối cùng trong list
+Tạo 2 version:
+- Có sử dụng generic
+- Không sử dụng
+
+Ex2: Viết phương thức generic để thay đổi 2 giá trị của 2 phần tử trong mảng

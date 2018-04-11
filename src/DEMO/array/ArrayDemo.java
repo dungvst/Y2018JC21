@@ -16,14 +16,14 @@ public class ArrayDemo {
         arrC[3] = 3;
         arrC[1] = 4;
 
-       /* // Sử dụng fori
+        /*// Sử dụng fori
         for (int i = 0; i < arrC.length; i++) {
             System.out.println("Phan tu: "+ i + " value: "+ arrC[i]);
-        }
+        }*/
 
-        // Sử dụng foreach
-        for (int i: arrC) {
-            System.out.println("value: "+ arrC[i]);
+        /*// Sử dụng foreach
+        for (int item: arrC) {
+            System.out.println("value: "+ item);
         }*/
 
 
@@ -57,9 +57,15 @@ public class ArrayDemo {
             System.out.println(i);
         }*/
 
-        int [][]arr2 = new int[10][10];
+        int [][]arr2 = new int[8][4];
         arr2[0][0] = 1;
         arr2[0][1] = 2;
+
+        int [][]arr3 = new int[2][2];
+        arr2[0][0] = 3;
+        arr2[0][1] = 4;
+
+        System.out.println(arr2.length);
 
 
 
