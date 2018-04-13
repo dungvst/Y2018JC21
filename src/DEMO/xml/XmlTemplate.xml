@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<!-- This is a comment -->
+<address> <!--root node-->
+    <name>DungVST </name>
+    <street> My Dinh - Ha Noi </street>
+    <telephone number= "0972550025">Mobiphone</telephone>
+</address>

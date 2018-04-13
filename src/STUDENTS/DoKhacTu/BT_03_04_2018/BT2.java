@@ -1,8 +1,6 @@
-package DoKhacTu.BT_03_04_2018;
+package STUDENTS.DoKhacTu.BT_03_04_2018;
 
 import java.util.Scanner;
-
-import DoKhacTu.TinhToan;
 
 public class BT2 {
 
