@@ -20,19 +20,30 @@ public class MangMotChieu {
 			dMangMotChieu[i] = i / 1.0 + 1.0 + Math.round(Math.random() * 100.0) / 100.0;
 		}
 		
+		int nIndex = 0;
 		System.out.println("\nMang 1 chieu kieu Int la");
 		for (int i : nMangMotChieu) {
 			System.out.print(i + "\t");
+			nIndex++;
+			if (nIndex != 0 && nIndex % 10 == 0) {
+				System.out.println();
+			}
 		}
+		
+		nIndex = 0;
 		System.out.println("\n\nMang mot chieu kieu Double la");
-		for (double d : dMangMotChieu) {
-			System.out.print(d + "\t");
+		for (double d : dMangMotChieu) {			
+			System.out.print(String.format("%9.2f", d) + "\t");
+			nIndex++;
+			if (nIndex != 0 && nIndex % 7 == 0) {
+				System.out.println();
+			}
 		}
 		
 		int max = nMangMotChieu[0];
 		double min = dMangMotChieu[0];
-		int nIndex = 0;
 		
+		nIndex = 0;		
 		for (int i = 0; i < nMangMotChieu.length; i++) {
 			if (max < nMangMotChieu[i]) {
 				max = nMangMotChieu[i];
