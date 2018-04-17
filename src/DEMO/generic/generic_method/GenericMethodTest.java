@@ -3,6 +3,7 @@ package DEMO.generic.generic_method;
 import DEMO.generic.KeyValue;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class GenericMethodTest {
 
@@ -40,6 +41,14 @@ public class GenericMethodTest {
         return first;
     }
 
+    public static <E, T> T testTwoTypeParameter(LinkedList<E> linkedList, ArrayList<T> arrayList){
+        return arrayList.get(0);
+    }
+
+    public static <E, T> ArrayList<T> testTwoTypeParameter2(LinkedList<E> linkedList, ArrayList<T> arrayList){
+        return arrayList;
+    }
+
     public static void main( String args[] )
     {
         // Tao cac mang Integer, Double va Character
@@ -47,7 +56,26 @@ public class GenericMethodTest {
         Double[] doubleArray = { 1.1, 2.2, 3.3, 4.4 };
         Character[] charArray = { 'H', 'E', 'L', 'L', 'O' };
 
-        System.out.println( "Mang intArray bao gom:" );
+        // Start test testTwoTypeParameter
+        ArrayList<Student> arrayListStudent = new ArrayList<>();
+        arrayListStudent.add(new Student("sd1",10));
+        arrayListStudent.add(new Student("sd2",11));
+        arrayListStudent.add(new Student("sd3",12));
+
+        LinkedList<Integer> linkedList = new LinkedList<>();
+        linkedList.add(1);
+        linkedList.add(2);
+        linkedList.add(3);
+
+//        Student student = testTwoTypeParameter(linkedList, arrayListStudent);
+//        System.out.println("Student: "+ student);
+
+        ArrayList<Student> lsStudent = testTwoTypeParameter2(linkedList, arrayListStudent);
+        System.out.println("Student: "+ lsStudent);
+
+        // End test testTwoTypeParameter
+
+       /* System.out.println( "Mang intArray bao gom:" );
         printArray( intArray  ); // truyen mot mang Integer
 
         System.out.println( "\nMang doubleArray bao gom:" );
@@ -68,6 +96,6 @@ public class GenericMethodTest {
         // Java hiểu kiểu trả về là String (V = String).
         String name = entry.getValue();
 
-        System.out.println("Phone = " + phone + " / name = " + name);
+        System.out.println("Phone = " + phone + " / name = " + name);*/
     }
 }

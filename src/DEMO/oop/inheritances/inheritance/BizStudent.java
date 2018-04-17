@@ -14,5 +14,6 @@ public class BizStudent extends Student {
         this.diemKeToan = diemKeToan;
         this.diemMarketing = diemMarketing;
         this.diemBanHang = diemBanHang;
+        this.setHoTen("BizStudent");
     }
 }

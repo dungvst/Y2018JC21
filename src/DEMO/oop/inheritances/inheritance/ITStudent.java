@@ -12,5 +12,6 @@ public class ITStudent extends Student{
     public ITStudent(double diemJava, double diemCss) {
         this.diemJava = diemJava;
         this.diemCss = diemCss;
+        this.setHoTen("ITStudent");
     }
 }
