@@ -1,0 +1,12 @@
+{
+  "id": 1 ,
+  "name":"DungVST",
+  "websites": [
+    "http://myweb.com",
+    "http://otherweb.com"
+  ],
+  "address": {
+    "street":"My Dinh",
+    "city":"Ha Noi"
+  }
+}
