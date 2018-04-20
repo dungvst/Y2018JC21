@@ -1,0 +1,1 @@
+1. Viết phương thức modify file config.xml
