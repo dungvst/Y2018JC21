@@ -1,6 +1,7 @@
 package DEMO.generic.generic_wildcards;
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class UpperBounded {
@@ -13,7 +14,7 @@ public class UpperBounded {
         // Lỗi do màng Integer và xử lý Double trong function
 //        double sum = sumWithOutUpper(arrInt);
         double sum = sumWithUpper(arrInt);
-        System.out.println("Sum of ints="+sum);
+        System.out.println("Sum of ints="+sum);      
 
     }
     public static double sumWithOutUpper(List<Number> list){
