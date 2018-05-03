@@ -86,7 +86,7 @@ public class BTVN_27_03 extends JFrame {
 		JLabel lblNewLabel_1 = new JLabel("Ph\u00E9p T\u00EDnh");
 
 		JComboBox cbbPT = new JComboBox();
-		cbbPT.setModel(new DefaultComboBoxModel(new String[] { "C\u1ED9ng", "Tr\u1EEB ", "Nh\u00E2n", "Chia" }));
+		cbbPT.setModel(new DefaultComboBoxModel(new String[] {"Cộng", "Trừ", "Nhân", "Chia"}));
 
 		JButton btnTinhToan = new JButton("T\u00EDnh To\u00E1n");
 
