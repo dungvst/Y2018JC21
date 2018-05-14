@@ -22,6 +22,7 @@ public class Access {
 
             preparedStatement = connection.prepareStatement("INSERT INTO results_list VALUES (DEFAULT , ?, ?, ?, ?)");
 
+
             preparedStatement.setDouble(1, number1);
             preparedStatement.setDouble(2, number2);
             preparedStatement.setString(3, calculation);

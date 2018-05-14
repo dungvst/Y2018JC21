@@ -70,6 +70,7 @@ public class CalculationSQL {
                             e1.printStackTrace();
                         }
 
+
                     }
                 }catch (NumberFormatException e1){
                     JOptionPane.showMessageDialog(null, "Input is not available");
