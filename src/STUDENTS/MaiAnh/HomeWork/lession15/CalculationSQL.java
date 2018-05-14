@@ -31,7 +31,6 @@ public class CalculationSQL {
         resultTable.setModel(model);
 
 
-
         Access access = new Access();
 
 

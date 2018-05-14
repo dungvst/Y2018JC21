@@ -6,6 +6,7 @@ public class Access {
     private PreparedStatement preparedStatement = null;
     private ResultSet resultSet = null;
 
+
     static final String JDBC_DRIVER = "com.mysql.jdbc.Driver";
     static final String DB_ULR = "jdbc:mysql://localhost/calculationdb";
 
