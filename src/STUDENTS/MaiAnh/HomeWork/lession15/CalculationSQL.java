@@ -30,6 +30,8 @@ public class CalculationSQL {
         DefaultTableModel model = new DefaultTableModel(null, columns);
         resultTable.setModel(model);
 
+
+
         Access access = new Access();
 
 

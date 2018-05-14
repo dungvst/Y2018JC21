@@ -13,7 +13,6 @@ public class Access {
     static final String PASSWORD = "root";
 
 
-
     public void insertData ( double number1, double number2, String calculation, double result) throws Exception{
         try {
             Class.forName("com.mysql.jdbc.Driver");
